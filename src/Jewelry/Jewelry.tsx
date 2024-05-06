@@ -42,6 +42,7 @@ const Jewelry = () => {
   };
 
   return (
+    <>
     <div className="bg-gray-100 py-12">
       <div className="container mx-auto">
         <h2 className="text-3xl font-semibold text-gray-800 mb-8">Featured Products</h2>
@@ -84,6 +85,7 @@ const Jewelry = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
